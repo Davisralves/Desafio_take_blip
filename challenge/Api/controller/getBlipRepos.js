@@ -17,7 +17,7 @@ module.exports = {
 			const firstFiveCSharpRepos = FilterFirstFiveCSharpRepos(repos);
 			response.status(200).json(firstFiveCSharpRepos);
 		} catch (error) {
-			console.log(error);
+			response.status(500).json({ error });
 		}
 	},
 };
