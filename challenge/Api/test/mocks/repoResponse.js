@@ -2,7 +2,7 @@ const gitResponse = [
 	{
 		owner: { avatar_url: "avatar1" },
 		full_name: "full_name1",
-		description: "descriptio2",
+		description: "description1",
 		language: "C#",
 	},
 	{
@@ -17,7 +17,7 @@ const apiResponse = {
 	0: {
 		image: "avatar1",
 		title: "full_name1",
-		subtitle: "descriptio2",
+		subtitle: "description1",
 	},
 	1: {
 		image: "avatar2",
