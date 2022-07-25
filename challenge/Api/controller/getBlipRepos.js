@@ -3,11 +3,17 @@ const Service = require("../service/resquestRepos");
 const FilterFirstFiveCSharpRepos = (repos) => {
 	const cSharpRepos = repos.filter((repo) => repo.language === "C#");
 	const fiveCSharpRepos = cSharpRepos.slice(0, 5);
-	return fiveCSharpRepos.map((repo) => ({
-		image: repo.owner.avatar_url,
-		title: repo.full_name,
-		subtitle: repo.description,
-	}));
+	return fiveCSharpRepos.reduce(
+		(repoObject, actualRepo, index) => ({
+			...repoObject,
+			[index]: {
+				image: actualRepo.owner.avatar_url,
+				title: actualRepo.full_name,
+				subtitle: actualRepo.description,
+			},
+		}),
+		{}
+	);
 };
 
 module.exports = {
