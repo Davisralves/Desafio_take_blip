@@ -26,4 +26,5 @@ module.exports = {
 			response.status(500).json({ error });
 		}
 	},
+	FilterFirstFiveCSharpRepos,
 };
