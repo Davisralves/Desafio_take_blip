@@ -1,5 +1,5 @@
 {
 	"scripts": {
-		"start": "node ./challenge/Api/index.js"
+		"heroku-prebuild": "cd challenge/Api"
 	}
 }
