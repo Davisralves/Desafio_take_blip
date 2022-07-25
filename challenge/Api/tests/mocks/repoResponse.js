@@ -13,17 +13,17 @@ const gitResponse = [
 	},
 ];
 
-const apiResponse = [
-	{
+const apiResponse = {
+	0: {
 		image: "avatar1",
 		title: "full_name1",
 		subtitle: "descriptio2",
 	},
-	{
+	1: {
 		image: "avatar2",
 		title: "full_name2",
 		subtitle: "description2",
 	},
-];
+};
 
 module.exports = { gitResponse, apiResponse };
