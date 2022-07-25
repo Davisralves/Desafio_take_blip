@@ -24,7 +24,7 @@ Criação de chatbot utilizando builder da Take Blip baseado no seguinte modelo 
 - Vercel
 - Pretier
 
-## Intruções para instalar e executar o projeto.
+## Instruções para instalar e executar o projeto.
 
 1. Clone o repositório:
    
