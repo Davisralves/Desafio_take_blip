@@ -13,14 +13,14 @@ Criação de chatbot utilizando builder da Take Blip baseado no seguinte modelo 
 
 ## Tecnologias Utilizadas
 
-- express.js
+- Express.js
 - Javascript
 - Chai
 - Mocha
 - Sinon
-- dotenv
-- axios
-- nyc
+- Dotenv
+- Axios
+- Nyc
 - Vercel
 - Pretier
 
