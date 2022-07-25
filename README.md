@@ -34,7 +34,7 @@ Criação de chatbot utilizando builder da Take Blip baseado no seguinte modelo 
    
    `cd challenge/Api`
 
-3. Instale as dependencias:
+3. Instale as dependências:
 
    `npm install`
 
