@@ -1,5 +1,0 @@
-{
-	"scripts": {
-		"heroku-prebuild": "mv challenge/Api/* ."
-	}
-}
