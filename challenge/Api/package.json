@@ -1,29 +1,30 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "description": "Api para consumir repositorios C# do take a blip",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha tests",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Davisralves/Desafio_take_blip.git"
-  },
-  "author": "Davi Alves",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Davisralves/Desafio_take_blip/issues"
-  },
-  "homepage": "https://github.com/Davisralves/Desafio_take_blip#readme",
-  "dependencies": {
-    "axios": "^0.27.2",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0"
-  }
+	"name": "api",
+	"version": "1.0.0",
+	"description": "Api para consumir repositorios C# do take a blip",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc mocha test",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Davisralves/Desafio_take_blip.git"
+	},
+	"author": "Davi Alves",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Davisralves/Desafio_take_blip/issues"
+	},
+	"homepage": "https://github.com/Davisralves/Desafio_take_blip#readme",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1"
+	},
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0",
+		"nyc": "^15.1.0"
+	}
 }
